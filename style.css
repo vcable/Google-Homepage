@@ -2,8 +2,13 @@
     font-family: arial, sans-serif;
     font-size: 14px;
     color: #5F6368;
-    position: relative;
-    top: 30px;
+    margin:0 auto;
+    border: 1px #5F6368;
+    height: 34px;
+    width: 110px;
+    cursor: pointer;
+    margin: 11px 4px;
+    border-radius: 4px;
 }
 
 ul {
@@ -39,7 +44,7 @@ body {
     position: relative;
 }
 
-#container {
+.container {
     min-height: 100%;
 }
 
@@ -58,10 +63,12 @@ body {
     width: 100%;
 }
 
+/*
 * {
     box-sizing: border-box;
     font-family: arial, sans-serif;
 }
+*/
 
 #container {
     min-height: 100vh;
@@ -71,12 +78,32 @@ body {
     padding-bottom: 100px
 }
 
-#box{
+#box {
     border-radius: 25px;
     width: 400px;
     position: relative;
     left: -65px;
-    
+
 
 }
 
+.search{
+   width: 571px;
+    height:40px;
+    border: 1px solid #d7d7c1;
+    border-radius: 25px;
+    display: block;
+    margin:0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    outline:none;
+    font-size: 16px;
+    text-indent: 20px;
+   
+}
+
+.image{
+    display:block;
+    margin: 0 auto;
+    margin-top: 300px;
+}
