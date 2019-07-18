@@ -2,13 +2,13 @@
     font-family: arial, sans-serif;
     font-size: 14px;
     color: #5F6368;
-    margin:0 auto;
     border: 1px #5F6368;
     height: 34px;
-    width: 110px;
+    width: 120px;
     cursor: pointer;
-    margin: 11px 4px;
+    margin: 11px 16px  0 auto;
     border-radius: 4px;
+   
 }
 
 ul {
@@ -42,6 +42,7 @@ html,
 body {
     height: 100%;
     position: relative;
+    text-align: center;
 }
 
 .container {
@@ -87,23 +88,23 @@ body {
 
 }
 
-.search{
-   width: 571px;
-    height:40px;
+.search {
+    width: 571px;
+    height: 40px;
     border: 1px solid #d7d7c1;
     border-radius: 25px;
     display: block;
-    margin:0 auto;
+    margin: 0 auto;
     margin-top: 30px;
     margin-bottom: 30px;
-    outline:none;
+    outline: none;
     font-size: 16px;
     text-indent: 20px;
-   
+
 }
 
-.image{
-    display:block;
+.image {
+    display: block;
     margin: 0 auto;
     margin-top: 300px;
 }
